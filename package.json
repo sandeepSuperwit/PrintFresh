@@ -12,7 +12,7 @@
     "test:Lounge": "playwright test tests/6.lounge.spec.ts",
     "test:Apparel": "playwright test tests/7.apparel.spec.ts ",
     "test:Luxe": "playwright test tests/8.luxe.spec.ts ",
-    "test:Accessories": "playwright test tests/7.accessories.spec.ts "
+    "test:Accessories": "playwright test tests/9.accessories.spec.ts "
 
 
   },
