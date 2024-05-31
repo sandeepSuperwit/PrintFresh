@@ -1,0 +1,26 @@
+{
+  "name": "printfresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:Login": "playwright test tests/1.login.spec.ts",
+    "test:Search": "playwright test tests/2.search.spec.ts",
+    "test:Summer": "playwright test tests/3.summer.spec.ts",
+    "test:New": "playwright test tests/4.new.spec.ts ",
+    "test:BestSellers": "playwright test tests/5.bestsellers.spec.ts",
+    "test:Lounge": "playwright test tests/6.lounge.spec.ts",
+    "test:Apparel": "playwright test tests/7.apparel.spec.ts ",
+    "test:Luxe": "playwright test tests/8.luxe.spec.ts ",
+    "test:Accessories": "playwright test tests/7.accessories.spec.ts "
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.13"
+  }
+}
